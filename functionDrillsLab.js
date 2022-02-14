@@ -36,6 +36,11 @@ function jsNinja() {
 */
 
 //CODE HERE
+function printName(pname) {
+  console.log(pname);
+}
+
+printName("Cameron");
 
 ////////////////// PROBLEM 4 ////////////////////
 /*

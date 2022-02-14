@@ -54,7 +54,12 @@ printName("Cameron");
 */
 
 //CODE HERE
+function greeting(name) {
+  const strName = String(name);
+  console.log(`Hello, ${strName}`);
+}
 
+greeting("Israel");
 ////////////////// PROBLEM 5 ////////////////////
 
 /*

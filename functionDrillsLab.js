@@ -120,7 +120,7 @@ const exclaim = function (str) {
 
 // arrow
 // declaration
-expression;
+let problem7answer = "expression";
 
 ////////////////// PROBLEM 8 ////////////////////
 
@@ -133,7 +133,7 @@ const exclaimTwo = (str) => {
   return str.toUpperCase() + "!!!";
 };
 
-arrow;
+let problem8answer = "arrow ";
 // declaration
 // expression
 
@@ -156,7 +156,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-declaration;
+let problem9answer = "declaration ";
 // expression
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -164,11 +164,25 @@ declaration;
   Write a function called nameCheck that takes in a name parameter.
   nameCheck should check if the name equals 'Steven'. If it does, return 'What is up Steven?'
   If the name parameter is equal to Bryan, return 'Hey Bryan!'
-  If the name parameter is anything else, return 'Cool name, NAMEPARAM' (with NAMEPARAM being the value of the name parameter being passed in).
+  If the name parameter is anything else, return 'Cool name, NAMEPARAM' (with NAMEPARAM being the value
+     of the name parameter being passed in).
   Create a variable called 'nameGreeting' and set it equal to your function invoked (called) passing in an argument.
 */
 
 //CODE HERE
+
+function nameCheck(name) {
+  if (name === "Steven") {
+    return "What is up Steven?";
+  } else if (name === "Hey Bryan!") {
+    return "Hey Bryan?";
+  } else {
+    return `Cool name, ${name}`;
+  }
+}
+
+let nameGreeting = nameCheck("Steven");
+console.log(nameGreeting);
 
 ////////////////// PROBLEM 11 ////////////////////
 /*

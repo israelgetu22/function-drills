@@ -98,6 +98,15 @@ console.log(compareNums(4, 14));
 
 //CODE HERE
 
+function add(num1, num2) {
+  const numA = parseInt(num1);
+  const numB = parseInt(num2);
+  let sum = numA + numB;
+  return sum;
+}
+let sum = add(10, "14tt");
+console.log(sum);
+
 ////////////////// PROBLEM 7 ////////////////////
 
 /*

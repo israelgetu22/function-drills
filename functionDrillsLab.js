@@ -120,7 +120,7 @@ const exclaim = function (str) {
 
 // arrow
 // declaration
-// expression
+expression;
 
 ////////////////// PROBLEM 8 ////////////////////
 

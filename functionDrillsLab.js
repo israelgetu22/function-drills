@@ -258,6 +258,8 @@ console.log(oddChecker);
 
 //CODE HERE
 
+const bestMovie = (title) => `${title} is the best movie ever!`;
+
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107];
 /* 
@@ -352,7 +354,8 @@ function pond() {
 /*
   There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck.
   All within different scopes.
-  Given the functions and variables above, edit the arrays below to contain only the appropriate variable names (as strings).
+  Given the functions and variables above, edit the arrays below to contain only the appropriate variable
+   names (as strings).
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.

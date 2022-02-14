@@ -235,6 +235,16 @@ console.log(namesArr);
 */
 
 //CODE HERE
+function thatsOdd(num) {
+  if (num % 2 === 0) {
+    return "That is not odd!";
+  } else {
+    return "That is odd indeed!";
+  }
+}
+
+let oddChecker = thatsOdd(3);
+console.log(oddChecker);
 
 ////////////////// PROBLEM 14 ////////////////////
 

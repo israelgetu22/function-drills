@@ -24,6 +24,9 @@ helloWorld();
 */
 
 //CODE HERE
+function jsNinja() {
+  return "I am a JavaScript ninja!";
+}
 
 ////////////////// PROBLEM 3 ////////////////////
 /*

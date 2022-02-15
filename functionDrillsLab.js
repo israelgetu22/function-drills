@@ -258,7 +258,9 @@ console.log(oddChecker);
 
 //CODE HERE
 
-const bestMovie = (title) => `${title} is the best movie ever!`;
+const bestMovie = (title) => {
+  `${title} is the best movie ever!`;
+};
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107];
@@ -316,6 +318,9 @@ function theEliminator(contestants, loser) {
   return contestants;
 }
 
+theEliminator("Clove", "Glimmer");
+console.log("Clove", "Glimmer");
+
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo.";
 /*
@@ -325,6 +330,13 @@ let sampleString = "Hi, my name is Kylo.";
 */
 
 //CODE HERE
+
+function neww(sampleString) {
+  let upperCase = sampleString.toUpperCase();
+  console.log(upperCase);
+}
+
+neww(sampleString);
 
 ////////////////// PROBLEM 18 ////////////////////
 /*

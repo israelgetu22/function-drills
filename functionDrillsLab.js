@@ -374,6 +374,13 @@ console.log(notice);
 */
 
 //CODE HERE
+function soldList(money) {
+  let nof = money / 3;
+  return `you can purchase ${nof}`;
+}
+
+let totalFrogs = soldList(60);
+console.log(totalFrogs);
 
 ////////////////// PROBLEM 20 ////////////////////
 /*

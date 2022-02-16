@@ -24,9 +24,7 @@ helloWorld();
 */
 
 //CODE HERE
-function jsNinja() {
-  return "I am a JavaScript ninja!";
-}
+const jsNinja = () => "I am a JavaScript ninja!";
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -84,8 +82,9 @@ const compareNums = (num1, num2) => {
     return num1;
   }
 };
-compareNums(4, 14);
-console.log(compareNums(4, 14));
+
+let bigNum = compareNums(4, 18);
+console.log(bigNum);
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -144,6 +143,8 @@ let problem8answer = "arrow ";
   Brownie points if you use a template string
 */
 
+//const exclaimTwo = (str) => str.toUpperCase() + "!!!";
+
 ////////////////// PROBLEM 9 ////////////////////
 
 /*
@@ -201,6 +202,8 @@ function faveColorFinder(color) {
     return "red is a great color";
   } else if (color === "black") {
     return "so trendy";
+  } else if (color === "green") {
+    return "green is a solid favorite color";
   } else {
     return "you need to evaluate your favorite color choice";
   }

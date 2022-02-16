@@ -223,11 +223,12 @@ let namesArr = ["Cameron", "Riley", "Eric", "Brenna", "Karl"];
 //CODE HERE
 
 function printAllNames(namesArr) {
-  for (i = 0; i < namesArr.length; i++) {}
+  for (let i = 0; i < namesArr.length; i++) {
+    return namesArr;
+  }
 }
 
-printAllNames(namesArr);
-console.log(namesArr);
+console.log(printAllNames(namesArr));
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -261,9 +262,9 @@ console.log(oddChecker);
 
 //CODE HERE
 
-const bestMovie = (title) => {
-  `${title} is the best movie ever!`;
-};
+const bestMovie = (title) => `${title} is the best movie ever!`;
+
+console.log(bestMovie("Sharknado"));
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107];
@@ -286,9 +287,10 @@ function bigOrSmall(arr) {
     } else if (bigOrSmallArray[i] <= 100) {
       answer.push("small");
     }
+    return answer;
   }
-  let arrayEvaluator = answer;
-  return arrayEvaluator;
+  let arrayEvaluator = bigOrSmall(bigOrSmallArray);
+  console.log(arrayEvaluator);
 }
 
 ////////////////// PROBLEM 16 ////////////////////
@@ -377,13 +379,15 @@ console.log(notice);
 */
 
 //CODE HERE
-function soldList(money) {
-  let nof = money / 3;
+function soldList(gold) {
+  let nof = gold / 3;
   return `you can purchase ${nof}`;
 }
 
 let totalFrogs = soldList(60);
 console.log(totalFrogs);
+
+//let soldList = gold => `you can purchase ${gold / 3}`
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
@@ -397,8 +401,8 @@ console.log(totalFrogs);
 */
 
 //CODE HERE
-function soldList(money) {
-  let nof = Math.round(money / 3);
+function soldList(gold) {
+  let nof = Math.round(gold / 3);
   return `you can purchase ${nof}`;
 }
 
